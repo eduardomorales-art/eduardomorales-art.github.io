@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #160d0a, #492019, #160d0a);
+    font-family: Arial, sans-serif;
+    color: #f5e6c8;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 850px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    color: #e6ad50;
+    font-size: 38px;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.introduccion,
+.eventos,
+.conclusion {
+    background: #291713;
+    border: 2px solid #a96b32;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px #000;
+}
+
+h2 {
+    color: #e6ad50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.evento {
+    background: #402019;
+    border-left: 5px solid #d18a3c;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento h3 {
+    color: #ffd783;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.fecha {
+    display: inline-block;
+    background: #8c3523;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.conclusion {
+    text-align: center;
+    border-color: #d18a3c;
+}
